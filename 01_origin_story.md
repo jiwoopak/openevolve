@@ -2,7 +2,7 @@
 
 Walking into the `openevolve` repository feels like entering a research lab where autonomous coding experiments never sleep. The promise is bold: let large language models evolve code the way nature evolves species, iterating rapidly until something extraordinary emerges. The README sets the tone—autonomous discovery, reproducibility, and real-world speedups—but the real heartbeat lives inside the Python package.
 
-![OpenEvolve architecture overview](../openevolve-architecture.png)
+![OpenEvolve architecture overview](openevolve-architecture.png)
 
 The narrative begins in `openevolve/api.py`, where library users summon the system with `run_evolution`. This entrypoint accepts raw code, file paths, or even callables for evaluation, then quietly constructs the full control stack:
 

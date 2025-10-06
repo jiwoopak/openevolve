@@ -2,7 +2,7 @@
 
 Once `OpenEvolve` takes the stage, it gathers a troupe of specialized performers. The controller (`openevolve/controller.py`) assembles them during initialization, wiring data flows before the first iteration even begins:
 
-![Component relationships](../openevolve-architecture.png)
+![Component relationships](openevolve-architecture.png)
 
 ```python
 self.llm_ensemble = LLMEnsemble(self.config.llm.models)
